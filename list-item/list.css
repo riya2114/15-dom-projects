@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    margin-top: 2rem;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 1.5rem;
+}
+.credit-card, .farmers, .ingredients{
+    background-color: rgb(226, 221, 221);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.button, .second-btn, .third-btn{
+    padding: 3px;
+    margin-left: 1rem;
+}
+.first, .second, .third{
+    width: 25rem;
+    padding: 10px;
+}
