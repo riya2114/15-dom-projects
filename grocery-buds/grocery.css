@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(208, 214, 212);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container {
+    background-color: #fff;
+    width: 35rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.addGrocery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.input {
+    width: 20rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgba(0, 128, 0, 0.863);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+.btn:hover {
+    background-color: rgba(4, 92, 4, 0.945);
+}
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #d6d0d0e1;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 25.5rem;
+    margin-left: 2.8rem;
+}
+.icons {
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.edit {
+    color: rgb(0, 128, 0);
+}
+.fa-trash {
+    color: rgb(218, 19, 19);
+}
+.clear{
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: #020202;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    visibility: hidden;
+}
+.clear:hover{
+    color: rgb(218, 19, 19);
+    cursor: pointer;
+}
